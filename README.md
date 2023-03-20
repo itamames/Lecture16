@@ -81,13 +81,13 @@ Mark each vertex with its in-degree
 
 
 While there are vertices not yet output:
-* Choose a vertex v with labeled with in-degree of 0*
+* Choose a vertex v with labeled with in-degree of 0
 * Output v and “remove” it from the graph
 * For each vertex u adjacent to v, decrement the in-degree of u
 
 
 ```text
-* There exists at least one vertex with indegree equal to cero.
+There exists at least one vertex with indegree equal to cero.
 
 Proof: Suppose that there exists a graph with no cycles and there are no nodes of indegree 0. Then each node has indegree 1 or higher. 
 Pick any node, since its indegree is 1 or higher we can go to its parent node. This node has also indegree 1 or higher and so we can keep doing this procedure until we arrive at the node we already visited. 
