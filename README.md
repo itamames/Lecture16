@@ -117,12 +117,12 @@ Example:
 
 ### Worst-case running time?
 
-* Initialization: O(|V|+|E|) (if we use an adjacency list)
-* Sum of all find-new-vertex: O(|V|2) (because each O(|V|))
+* Initialization: O(\|V\|+\|E\|) (if we use an adjacency list)
+* Sum of all find-new-vertex: O(\|V\|<sup>2</sup>) (because each O(\|V\|))
 * Sum of all decrements: O(|E|) (assuming adjacency list)
-* Total:  O(|V|2 + |E|) - Quadratic time!
+* Total:  O(\|V\|<sup>2</sup> + \|E\|) - Quadratic time!
 
-Not good for a graph with |V|2 >> |E| (sparse graph)
+Not good for a graph with \|V\|<sup>2</sup> >> \|E\| (sparse graph)
 
 .
 
@@ -168,10 +168,10 @@ Example using a queue:
 ```
 Worst-case running time?
 
-* Initialization: O(|V|+|E|) (if we using an adjacency list)
-* Sum of all enqueues and dequeues: O(|V|)
-* Sum of all decrements: O(|E|) (assuming adjacency list)
-* Total: O(|V| + |E|) - Linear running time!
+* Initialization: O(\|V\|+\|E\|) (if we using an adjacency list)
+* Sum of all enqueues and dequeues: O(\|V\|)
+* Sum of all decrements: O(\|E\|) (assuming adjacency list)
+* Total: O(\|V\| + \|E\|) - Linear running time!
 
 ## Topological Sort. Real life Application 
 
@@ -275,7 +275,7 @@ So DFS recursively explore one part before going back to the other parts not yet
 
 BFS explore areas closer to the start node first
 
-Time complexity of the DFS and BFS is O(|V|+|E|)
+Time complexity of the DFS and BFS is O(\|V\|+\|E\|)
 
 ## Depth First graph Search (DFS)
 
