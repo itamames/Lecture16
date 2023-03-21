@@ -119,7 +119,7 @@ Example:
 
 * Initialization: O(\|V\|+\|E\|) (if we use an adjacency list)
 * Sum of all find-new-vertex: O(\|V\|<sup>2</sup>) (because each O(\|V\|))
-* Sum of all decrements: O(|E|) (assuming adjacency list)
+* Sum of all decrements: O(\|E\|) (assuming adjacency list)
 * Total:  O(\|V\|<sup>2</sup> + \|E\|) - Quadratic time!
 
 Not good for a graph with \|V\|<sup>2</sup> >> \|E\| (sparse graph)
@@ -415,7 +415,7 @@ Also, every edge (u,v) is "crossed" twice:
 * one time when node v is checked from u to see if it is visited (if not visited, then v would be visited from u)
 * another time, when we back track from v to u. 
 
-Therefore, the running time of DFS and BFS is O(|V| + |E|). 
+Therefore, the running time of DFS and BFS is O(\|V\| + \|E\|). 
 
 ## Graph Traversals. DFS & BFS for Digraphs  
 
