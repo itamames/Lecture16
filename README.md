@@ -417,11 +417,6 @@ Also, every edge (u,v) is "crossed" twice:
 
 Therefore, the running time of DFS and BFS is O(\|V\| + \|E\|). 
 
-## Graph Traversals. DFS & BFS for Digraphs  
-
-Not strongly connected graph!
-
-![Graph](images/Graph16.png)
 
 ## Class Problem
 
